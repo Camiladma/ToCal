@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+:root{
+    --border-pattern:#0e0c6f;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* index only*/
+#body-index{
+
+    display: flex;
+    flex-direction: column(2);
+    align-items: center;
+    justify-content: center;
+    background-color: #e2cea8;
+    width: 100vh;
+}
+
+#cat-help{
+    width: 45vh;
+    height: 45vh;
+}
+
+#question-index{
+    font-size: 2rem;
+    color: var(--border-pattern);
+    align-items: center;
+    background-color: white;
+    padding: 3vh;
+    border: 5px solid var(--border-pattern);
+    border-radius: 15px;
+    font-family: 'Caprasimo', cursive;
+}
+#question-index button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--border-pattern);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Caprasimo', cursive;
+    height: 3rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(138, 138, 173, 0.5);
+    box-shadow: 0 5px 10px rgb(83, 83, 105, 0.5);
+    transition: 0.5;
+    
+    
+}
+#question-index button:hover{
+    background-color:var(--border-pattern);;
+    color:white;
+}
+
+/* pages*/
+
+#body-page{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2cea8;
+    width: 100vh;
+}
+
+#form {
+    background-color: rgb(174, 75, 8);
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0 5px 10px rgb(83, 83, 105, 0.5);
+    margin: 5vh 5vh 0vh 5vh;    
+    padding: 2.5vh;
+    display: flex;
+    flex-direction: column(2);
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    color: black;
+    font-size: 1.5rem;
+    align-items: center;
+    background-color: rgb(221, 216, 235);
+    padding: 3vh;
+    border: 5px solid var(--border-pattern);
+    font-family: 'Caprasimo',cursive;
+} 
+#form label {
+    font-weight: bolder;
+}
+
+#form input {
+    height: 2.5vh;
+    width: 10vh;
+    font-size: 25px;
+
+}
+
+#form input::-webkit-outer-spin-button,
+#form input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+#form input:focus {
+    outline: none;
+}
+
+#form button {
+    color: var(--border-pattern);
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Caprasimo', cursive;
+    height: 3rem;
+    border: none;
+    padding: 1vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgb(83, 83, 105, 0.5);
+    transition: 0.5;
+    width: fit-content;
+    margin:0.1rem;
+    transition: 0.5;
+}
+
+#form button:hover {
+    background-color: var(--border-pattern);
+    ;
+    color: white;
+}
+
+
+
+#divSaida {
+
+    background-color: white;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 5px 10px rgb(83, 83, 105, 0.5);
+    margin: 0vh 5vh 0vh 5vh;
+    padding: 4vh;
+    min-width: 77dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 30px;
+}
+
+.DNS{
+    display: none !important;
+}
